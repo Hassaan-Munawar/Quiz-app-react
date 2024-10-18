@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.App {
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+  max-height: 700px; 
+  overflow: hidden; 
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.8s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.quiz-title {
+  font-size: 2.5rem;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.question-block {
+  margin-bottom: 20px;
+}
+
+.question {
+  font-size: 1.5rem;
+  color: #4a4a4a;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option-label {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.option-input {
+  margin-right: 12px;
+  accent-color: #6a00ff;
+}
+
+.option-label:hover {
+  background-color: #e0eaff; 
+  transform: scale(1.02);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.option-text {
+  font-size: 1.2rem;
+  color: #333333;
+}
+
+.next-btn {
+  background-color: #6a00ff;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 100%;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.next-btn:hover {
+  background-color: #4a00e0;
+  transform: scale(1.05);
+}
+
+.disabled-btn {
+  background-color: #dcdcdc;
+  cursor: not-allowed;
+}
+
+.result-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  color: #333333;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .App {
+    padding: 20px;
+    max-height: 90vh; 
+  }
+  .quiz-title {
+    font-size: 2rem;
+  }
+  .question {
+    font-size: 1.2rem;
+  }
+  .option-text {
+    font-size: 1rem;
+  }
+  .next-btn {
+    font-size: 1rem;
+  }
+}
+
+
+
