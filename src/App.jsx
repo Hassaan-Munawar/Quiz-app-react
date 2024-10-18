@@ -60,7 +60,6 @@ function App() {
       </div>
     );
   }
-
   const currentQuestionData = data[currentQuestionIndex];
   const isOptionSelected = selectedAnswers[currentQuestionIndex] !== undefined;
 
