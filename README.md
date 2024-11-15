@@ -1,6 +1,6 @@
 🚀 Introducing My Project: A Fully Responsive Quiz App Built with React! 
 
-I’m excited to share my latest creation — a Quiz Application built using React. This project allowed me to dive deep into front-end development, delivering a sleek, engaging, and fully responsive quiz experience. 🌟
+I’m excited to share my creation — a Quiz Application built using React. This project allowed me to dive deep into front-end development, delivering a sleek, engaging, and fully responsive quiz experience. 🌟
 
 💡 Features That Make This App Unique:
 Modern, Minimalist UI with a Light Theme: The app boasts a clean, user-friendly interface designed with a light theme for optimal readability and focus. It looks great on any device, ensuring a seamless experience across desktop, tablet, and mobile.
@@ -21,13 +21,4 @@ ReactJS: For creating a modular, reusable, and efficient UI.
 CSS3: For responsive styling and layout.
 JavaScript (ES6+): To manage dynamic interactions and quiz logic.
 
-🎯 Next Steps:
-Expanding the quiz with a larger question bank.
-
-Adding new features like time limits per question and more detailed performance analysis.
-
-Exploring additional themes, like a dark mode for night-time use.
-
 This project has been an exciting challenge and a great learning experience.
-
-Hosted Link : https://lnkd.in/eEzD-zXS
